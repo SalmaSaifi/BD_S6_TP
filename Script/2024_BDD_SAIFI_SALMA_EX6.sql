@@ -1,0 +1,1 @@
+DELETE FROM Reservation WHERE idReservation = '11'; 

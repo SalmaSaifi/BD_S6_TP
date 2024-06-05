@@ -1,0 +1,1 @@
+CREATE TABLE disponibilite ( id_disponibilite INT PRIMARY KEY AUTO_INCREMENT, id_materiel INT, date_debut DATE, date_fin DATE, FOREIGN KEY (id_materiel) REFERENCES Materiel(idMateriel) ); 
